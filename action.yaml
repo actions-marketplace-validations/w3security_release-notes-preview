@@ -1,4 +1,4 @@
-name: Release-Notes
+name: Release-Notes-Preview
 author: 'w3security'
 description: 'Presents a preview of expected release notes should the PR get merged, based on Semantic Release.'
 

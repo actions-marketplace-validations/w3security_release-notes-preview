@@ -1,0 +1,30 @@
+{
+  "name": "release-notes-preview",
+  "description": "Presents a preview of expected release notes should the PR get merged, based on Semantic Release.",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf ./dist && tsc && ncc build && git add -f dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w3security/release-notes-preview.git"
+  },
+  "author": "Amir Moualem",
+  "bugs": {
+    "url": "https://github.com/w3security/release-notes-preview/issues"
+  },
+  "homepage": "https://github.com/w3security/release-notes-preview#readme",
+  "dependencies": {
+    "child-process-promise": "^2.2.1",
+    "needle": "^2.4.0"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.20.5",
+    "@types/child-process-promise": "^2.2.1",
+    "@types/needle": "^2.0.4",
+    "@types/node": "^13.9.1",
+    "typescript": "^3.8.3"
+  }
+}

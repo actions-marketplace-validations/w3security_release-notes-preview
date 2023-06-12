@@ -1,0 +1,17 @@
+name: Release-Notes-Preview
+author: 'Amir Moualem'
+description: 'Presents a preview of expected release notes should the PR get merged, based on Semantic Release.'
+
+inputs:
+  releaseBranch:
+    description: 'Branch where the Semantic Release will occur.'
+    required: false
+    default: 'master'
+
+runs:
+  using: node12
+  main: dist/index.js
+
+branding:
+  icon: 'check-square'  
+  color: 'black'

@@ -1,4 +1,4 @@
-[![Known Vulnerabilities](https://w3security.io/test/github/w3security/release-notes-preview/badge.svg?targetFile=package.json)](https://w3security.io/test/github/w3security/release-notes-preview?targetFile=package.json)
+[![Known Vulnerabilities](https://snyk.io/test/github/w3security/release-notes-preview/badge.svg?targetFile=package.json)](https://snyk.io/test/github/w3security/release-notes-preview?targetFile=package.json)
 
 # w3security/release-notes-preview
 

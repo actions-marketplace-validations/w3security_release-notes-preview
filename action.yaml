@@ -1,5 +1,5 @@
-name: Release-Notes-Preview
-author: 'Amir Moualem'
+name: Release-Notes
+author: 'w3security'
 description: 'Presents a preview of expected release notes should the PR get merged, based on Semantic Release.'
 
 inputs:
